@@ -1,46 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>Comandos Git</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>Comandos Git</h1>
-	<table>
-		<thead>
-			<tr>
-				<th>Comando</th>
-				<th>Descrição</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>git branch &lt;nome-da-branch&gt;</td>
-				<td>Cria uma nova branch com o nome especificado.</td>
-			</tr>
-			<tr>
-				<td>git checkout &lt;nome-da-branch&gt;</td>
-				<td>Altera a branch atual para a branch especificada.</td>
-			</tr>
-			<tr>
-				<td>git status</td>
-				<td>Mostra o status atual do repositório, indicando arquivos modificados e não commitados, arquivos adicionados, arquivos removidos, etc.</td>
-			</tr>
-			<tr>
-				<td>git commit -m "Mensagem do commit"</td>
-				<td>Salva as mudanças adicionadas ao "stage" com uma mensagem descritiva do commit.</td>
-			</tr>
-			<tr>
-				<td>git push &lt;nome-remoto&gt; &lt;nome-da-branch&gt;</td>
-				<td>Envia as mudanças na branch especificada para um repositório remoto com o nome especificado.</td>
-			</tr>
-			<tr>
-				<td>git pull &lt;nome-remoto&gt; &lt;nome-da-branch&gt;</td>
-				<td>Atualiza a branch atual com as mudanças da branch remota com o nome especificado.</td>
-			</tr>
-		</tbody>
-	</table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Comandos Git</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Comandos Git</h1>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Comando</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>git branch &lt;nome-da-branch&gt;</td>
+            <td>Cria uma nova branch com o nome especificado.</td>
+          </tr>
+          <tr>
+            <td>git checkout &lt;nome-da-branch&gt;</td>
+            <td>Altera a branch atual para a branch especificada.</td>
+          </tr>
+          <tr>
+            <td>git status</td>
+            <td>
+              Mostra o status atual do repositório, indicando arquivos
+              modificados e não commitados, arquivos adicionados, arquivos
+              removidos, etc.
+            </td>
+          </tr>
+          <tr>
+            <td>git commit -m "Mensagem do commit"</td>
+            <td>
+              Salva as mudanças adicionadas ao "stage" com uma mensagem
+              descritiva do commit.
+            </td>
+          </tr>
+          <tr>
+            <td>git push &lt;nome-remoto&gt; &lt;nome-da-branch&gt;</td>
+            <td>
+              Envia as mudanças na branch especificada para um repositório
+              remoto com o nome especificado.
+            </td>
+          </tr>
+          <tr>
+            <td>git pull &lt;nome-remoto&gt; &lt;nome-da-branch&gt;</td>
+            <td>
+              Atualiza a branch atual com as mudanças da branch remota com o
+              nome especificado.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+	<footer>
+        <a href="https://github.com/seu-usuario/seu-repositorio">
+            <img src="https://github.com/favicon.ico" alt="Ícone do GitHub" width="16" height="16">
+            &copy; oricardos, 2023. <a href="https://opensource.org/licenses/MIT">MIT</a>.
+        </a>
+    </footer>
+  </body>
 </html>

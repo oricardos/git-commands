@@ -1,13 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #F2F2F2;
-    padding: 20px;
 }
 
 h1 {
     color: #008CBA;
-    margin-bottom: 20px;
+    margin: 20px; 0;
     text-align: center;
+}
+
+.table-wrapper {
+    padding: 1.5rem;
 }
 
 table {
@@ -15,6 +24,7 @@ table {
     border-collapse: collapse;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
     background-color: #fff;
+    margin-bottom: 5rem;
 }
 
 th, td {
@@ -39,7 +49,28 @@ td:nth-child(2) {
     width: 80%;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+    color: #888;
+    background-color: #f2f2f2;
+    padding: 1rem;
+}
+footer a {
+    color: #888;
+}
+footer a:hover {
+    color: #333;
+}
+
 @media only screen and (max-width: 768px) {
+    .table-wrapper {
+        padding: .5rem;
+    }
+
     table {
         width: 100%;
     }
